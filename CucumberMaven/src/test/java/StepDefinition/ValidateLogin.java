@@ -32,7 +32,7 @@ public class ValidateLogin extends BaseTest{
 		driver = BaseTest.setBrowser();
 	}
 	
-	
+
 	@Given("User launch DemoWebshop page")
 	public void user_launch_demowebshop_page() {
 	  

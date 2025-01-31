@@ -18,7 +18,6 @@
 			monochrome = true
 			)
 
-
 	public class TestRunnerDemo {
 
 		
