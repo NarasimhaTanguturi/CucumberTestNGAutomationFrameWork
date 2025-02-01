@@ -26,7 +26,6 @@ public class ValidateLogin extends BaseTest{
 	//LoginPageObjects loginPageObj = PageFactory.initElements(driver, LoginPageObjects.class);
 
 
-
 	@Given("User launch DemoWebshop page")
 	public void user_launch_demowebshop_page() {	  
 

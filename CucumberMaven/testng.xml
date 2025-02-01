@@ -3,6 +3,7 @@
 <suite name="CucumberTestRunnerSuite">
   <test thread-count="5" name="CucumberTestRunnerTest">
   <classes>
+
   <class name="Runner.TestNGCucumberRunner"></class>
   </classes>
   </test> <!-- CucumberTestRunnerTest -->
