@@ -25,7 +25,7 @@ public class ValidateLogin extends BaseTest{
 
 	//LoginPageObjects loginPageObj = PageFactory.initElements(driver, LoginPageObjects.class);
 
-	
+
 
 	@Given("User launch DemoWebshop page")
 	public void user_launch_demowebshop_page() {	  
@@ -42,26 +42,12 @@ public class ValidateLogin extends BaseTest{
 		loginPageObj.emailID.sendKeys(email);
 		loginPageObj.userPassword.sendKeys("abc@12345");
 
-
-		/*
-		WebElement Username = driver.findElement(By.id("Email"));
-		WebElement Password = driver.findElement(By.id("Password"));
-
-		Username.sendKeys(email);
-		Password.sendKeys("abc@12345");
-		 */
-
 	}
 
 	@And("User click Login button")
 	public void user_click_login_button() {
 		LoginPageObjects loginPageObj = PageFactory.initElements(driver, LoginPageObjects.class);
 		loginPageObj.loginButton.click();
-
-		/*
-		WebElement loginButton = driver.findElement(By.xpath("//*[@class='button-1 login-button']"));		
-		loginButton.click();
-		 */
 
 	}
 
